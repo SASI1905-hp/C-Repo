@@ -1,0 +1,18 @@
+# String Operations in Python
+text = "Hello World"
+print(f"Original: {text}")
+print(f"Uppercase: {text.upper()}")
+print(f"Lowercase: {text.lower()}")
+print(f"Reversed: {text[::-1]}")
+print(f"Length: {len(text)}")
+print(f"Replace: {text.replace('World', 'Python')}")
+print(f"Split: {text.split()}")
+print(f"Join: {'-'.join(text.split())}")
+print(f"Find 'World': {text.find('World')}")
+print(f"Starts with 'Hello': {text.startswith('Hello')}")
+print(f"Ends with 'World': {text.endswith('World')}")
+print(f"Count 'l': {text.count('l')}")
+print(f"Strip: {' Text '.strip()}")
+print(f"Replace vowels: {text.replace('o', '*')}")
+print(f"Center: {text.center(20, '-')}")
+print(f"Capitalize first letter: {text.lower().capitalize()}")
